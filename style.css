@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Pacifico", sans-serif;
+  color: green;
+}
+
+h1{
+  font-size: 90px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.container{
+  background-color: #ccc;
+  width: 1000px;
+  /* height: 70vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+  margin: 0 auto;
+}
+
+h3{
+  font-size: 32px;
+}
+
+.player1, .player2{
+  width: 400px;
+  text-align: center;
+}
+.imgp1-1,
+.imgp1-2, 
+.imgp1-3,
+.imgp1-4,
+.imgp1-5,
+.imgp1-6{
+  display: none;
+  margin: 0 auto;
+}
+
+.imgp2-1,
+.imgp2-2, 
+.imgp2-3,
+.imgp2-4,
+.imgp2-5,
+.imgp2-6{
+  display: none;
+  margin: 0 auto;
+}
+
+.container img {
+  height: 250px;
+}
